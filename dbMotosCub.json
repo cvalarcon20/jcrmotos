@@ -11,7 +11,7 @@
       "id": 2,
       "brand": "Motomel",
       "model": "Blitz 110",
-      "image": "../images/blitz2.png",
+      "image": "./images/blitz2.png",
       "extraInfo": "110CC - Full, llantas",
       "price": 1000
     },

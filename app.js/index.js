@@ -22,7 +22,7 @@ function getProductsCubDb() {
 }
 
 function getProductsChopDb() {
-    const url = "../dbMotosChop.json";
+    const url = "./dbMotosChop.json";
     
     return fetch (url)
      .then(response => {
