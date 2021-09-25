@@ -1,0 +1,42 @@
+[
+    {
+      "id": 9,
+      "brand": "RVM",
+      "model": "250-9",
+      "image": "../images/chop_250.png",
+      "extraInfo": "5 Velocidades , Multidisco",
+      "price": 13.05
+    },
+
+    {
+      "id": 10,
+      "brand": "Jawa",
+      "model": "Daytona 400",
+      "image": "./images/chop_daytona.png",
+      "extraInfo": "6 Velocidades, Inyección",
+      "price": 23.05
+    },
+
+    {
+      "id": 11,
+      "brand": "Jawa",
+      "model": "Spyder 400",
+      "image": "./images/chop_spider.png",
+      "extraInfo": "6 Velocidades, Doble disco",
+      "price": 26.05
+    },
+
+    {
+      "id": 12,
+      "brand": "Gilera",
+      "model": "YL 200",
+      "image": "./images/chop_yl.png",
+      "extraInfo": "5 Vel., Horquilla Invertida",
+      "price": 26.05
+    }
+
+
+  ]
+
+
+  

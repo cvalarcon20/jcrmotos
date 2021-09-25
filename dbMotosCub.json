@@ -1,0 +1,71 @@
+[
+    {
+      "id": 1,
+      "brand": "Motomel",
+      "model": "Blitz 110",
+      "image": "./images/blitz1.png",
+      "extraInfo": "110CC - Con Alarma",
+      "price": 1200
+    },
+    {
+      "id": 2,
+      "brand": "Motomel",
+      "model": "Blitz 110",
+      "image": "../images/blitz2.png",
+      "extraInfo": "110CC - Full, llantas",
+      "price": 1000
+    },
+    {
+      "id": 3,
+      "brand": "Motomel",
+      "model": "Blitz 110",
+      "image": "./images/blitz3.png",
+      "extraInfo": "110CC - Tunning",
+      "price": 1.55
+    },
+    {
+      "id": 4,
+      "brand": "Motomel",
+      "model": "Blitz One",
+      "image": "./images/blitz1.png",
+      "extraInfo": "110CC - F/C",
+      "price": 1.99
+    },
+    {
+      "id": 5,
+      "brand": "Motomel",
+      "model": "CG 150 S2",
+      "image": "./images/cg1.png",
+      "extraInfo": "Full",
+      "price": 1.65
+    },
+    {
+      "id": 6,
+      "brand": "Motomel",
+      "model": "CG 150 S2",
+      "image": "./images/cg2.png",
+      "extraInfo": "F/C Sin Alarma",
+      "price": 1.7
+    },
+    {
+      "id": 7,
+      "brand": "Motomel",
+      "model": "CG 150 S3",
+      "image": "./images/cg3.png",
+      "extraInfo": "F/C",
+      "price": 2.55
+    },
+    {
+      "id": 8,
+      "brand": "Motomel",
+      "model": "Max 110",
+      "image": "./images/max110.png",
+      "extraInfo": "F/C",
+      "price": 2.05
+    }
+
+
+  ]
+
+
+  

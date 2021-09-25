@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eComerce</title>
+
+
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+
+   <!--Navegation -->
+   <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand ml-4" href="#">JCR Motos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Motos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Cub</a></li>
+              <li><a class="dropdown-item" href="#">Custom/Choper</a></li>
+              <li><a class="dropdown-item" href="#">Deportivas</a></li>
+              <li><a class="dropdown-item" href="#">De Calle / Naked </a></li>
+              <li><a class="dropdown-item" href="#">Enduro</a></li>
+              <li><a class="dropdown-item" href="#">Scooters</a></li>
+              <li><a class="dropdown-item" href="#">Touring</a></li>
+            </ul>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cuatriciclos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Deportivos</a></li>
+              </ul>
+            </li>
+        </ul>
+        <div class="cart-container">
+            <button class="btn btn-secondary cart" type="button" onClick="openCloseCart()">
+                <img src="./images/cart.png" alt="carrito">
+            </button>
+            <div class="cart-products hidden"></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+   <!-- Product List    -->
+    <!-- Aca se van a renderizar nuestros prductos -->
+   <div class="container product-list">
+       <div class="row productschop"></div>
+   </div>
+
+
+   <script src="./app.js/jquery.min.js"></script>
+   <script src="./app.js/bootstrap.min.js"></script>
+   <script src="./app.js/index.js"></script>
+
+</body>
+</html>
