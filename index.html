@@ -18,16 +18,16 @@
 <body>
 
    <!--Navegation -->
-   <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+   <nav class="navbar navbar-expand-xl navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand ml-4" href="#">JCR Motos</a>
+      <a class="navbar-brand ml-4" href="#"><img  class="logo"  src="./images/logo_header1.png" alt="LogoJCR"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse show" id="navbarWithDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -55,21 +55,145 @@
             <button class="btn btn-secondary cart" type="button" onClick="openCloseCart()">
                 <img src="./images/cart.png" alt="carrito">
             </button>
-            <div class="cart-products hidden">Carrito esta vacío...</div>
+            <div class="cart-products hidden">
+              Carrito esta vacío...
+            </div>
         </div>
       </div>
     </div>
   </nav>
 
 
-   <!-- Product List    -->
-    <!-- Aca se van a renderizar nuestros prductos -->
-   <div class="container product-list">
-       <div class="row products"></div>
-   </div>
+<!--Carrousel  -->
+
+
+<div class="text-center" id="TituloIndex">
+  <h1>Bienvenido a la tienda virtual de JCR Motos </h1>
+</div>
 
 
 
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/logo-rvm-4.bmp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/logo-rvm-2.png" class="d-block w-100" alt="...">
+    </div>AN c
+    <div class="carousel-item">
+      <img src="./images/logo-rvm-3.bmp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br>
+
+
+  <!-- <div class="text-center" id="TituloIndex">
+    <h1>JCR Motos eComerce </h1>
+  </div> -->
+
+
+
+
+
+
+
+
+   <!--Cards de index  -->
+
+ 
+   <div class="text-center">
+  <div class="card text-white bg-dark mb-3 d-inline-block" style="max-width: 20rem;">
+    <div class="card-header">
+      <h6 class="card-subtitle mb-2 text-muted text-start">Motos</h6>
+      <h4 class="card-title">CUB</h4>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Modelo sencillo y económico, para todos.</p>
+      <a href="/cub.html" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+  <div class="card text-white bg-dark mb-3 d-inline-block" style="max-width: 20rem;">
+    <div class="card-header">
+      <h6 class="card-subtitle mb-2 text-muted text-start">Motos</h6>
+      <h4 class="card-title">Custom / Chopper</h4>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Motocicletas modificadas, las mejores.</p>
+      <a href="/choper.html" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+  <div class="card text-white bg-dark mb-3 d-inline-block" style="max-width: 20rem;">
+    <div class="card-header">
+      <h6 class="card-subtitle mb-2 text-muted text-start">Motos</h6>
+      <h4 class="card-title">Deportivas</h4>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Tecnología, materiales ligeros y potencia.</p>
+      <a href="#!" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+  <div class="card text-white bg-dark mb-3 d-inline-block" style="max-width: 20rem;">
+    <div class="card-header">
+      <h6 class="card-subtitle mb-2 text-muted text-start">Motos</h6>
+      <h4 class="card-title">De la Calle / Naked</h4>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Base deportiva con un corte más urbano.</p>
+      <a href="#!" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+  <div class="card text-white bg-dark mb-3 d-inline-block" style="max-width: 20rem;">
+    <div class="card-header">
+      <h6 class="card-subtitle mb-2 text-muted text-start">Motos</h6>
+      <h4 class="card-title">Enduro</h4>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Enfrente la naturaleza fuera de senderos.</p>
+      <a href="#!" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+  <div class="card text-white bg-dark mb-3 d-inline-block" style="max-width: 20rem;">
+    <div class="card-header">
+      <h6 class="card-subtitle mb-2 text-muted text-start">Motos</h6>
+      <h4 class="card-title">Scooters</h4>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Olvidate de los cambios.</p>
+      <a href="#!" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+  <div class="card text-white bg-dark mb-3 d-inline-block" style="max-width: 20rem;">
+    <div class="card-header">
+      <h6 class="card-subtitle mb-2 text-muted text-start">Motos</h6>
+      <h4 class="card-title">Touring</h4>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Deportiva con mejor suspensión.</p>
+      <a href="#!" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+  <div class="card text-white bg-dark mb-3 d-inline-block" style="max-width: 20rem;">
+    <div class="card-header">
+      <h6 class="card-subtitle mb-2 text-muted text-start">Cutriciclos</h6>
+      <h4 class="card-title">Deportivos</h4>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Enfrenta a la naturaleza sin restricciones.</p>
+      <a href="#!" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+</div>
 
 
 

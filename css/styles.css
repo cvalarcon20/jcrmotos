@@ -2,17 +2,54 @@ body {
     background-color: #ebebeb;
   }
   
+ 
   .navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
+    background-color: #a60000;
+    
   }
   .navbar .logo {
     width: 100px;
   }
   
+.navbar-brand .logo{
+  width: 300px;
+}
+
+
+.card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 30%;
+  background:#a60000;
+  color: white;
+  text-align: center;
+
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+#navbarWithDropdown{
+  margin-left: 3%;
+}
+
+#TituloIndex{
+  margin-top: 10%;
+  color: #000000;
+  background-color: rgb(196, 196, 196);
+}
+
   .navbar .cart {
     background-color: transparent;
     border: 0;
@@ -116,4 +153,5 @@ body {
     background-color: #008abf !important;
     border: 1px solid #008abf;
   }
+  
   

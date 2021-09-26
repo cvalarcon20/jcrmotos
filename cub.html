@@ -14,27 +14,27 @@
 <body>
 
    <!--Navegation -->
-   <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+   <nav class="navbar navbar-expand-xl navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand ml-4" href="#">JCR Motos</a>
+      <a class="navbar-brand ml-4" href="#"><img  class="logo"  src="./images/logo_header1.png" alt="LogoJCR"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse show" id="navbarWithDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Motos
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Cub</a></li>
-              <li><a class="dropdown-item" href="#">Custom/Choper</a></li>
-              <li><a class="dropdown-item" href="#">Deportivas</a></li>
-              <li><a class="dropdown-item" href="#">De Calle / Naked </a></li>
-              <li><a class="dropdown-item" href="#">Enduro</a></li>
+              <li><a class="dropdown-item" href="./cub.html">Cub</a></li>
+              <li><a class="dropdown-item" href="./choper.html">Custom/Choper</a></li>
+              <li><a class="dropdown-item" href="./deportivas.html">Deportivas</a></li>
+              <li><a class="dropdown-item" href="./decalle.html">De Calle / Naked </a></li>
+              <li><a class="dropdown-item" href="./enduro.html">Enduro</a></li>
               <li><a class="dropdown-item" href="#">Scooters</a></li>
               <li><a class="dropdown-item" href="#">Touring</a></li>
             </ul>
@@ -51,7 +51,9 @@
             <button class="btn btn-secondary cart" type="button" onClick="openCloseCart()">
                 <img src="./images/cart.png" alt="carrito">
             </button>
-            <div class="cart-products hidden"></div>
+            <div class="cart-products hidden">
+              Carrito esta vacío...
+            </div>
         </div>
       </div>
     </div>
@@ -60,14 +62,15 @@
 
    <!-- Product List    -->
     <!-- Aca se van a renderizar nuestros prductos -->
-   <div class="container product-list">
-       <div class="row productscub"></div>
-   </div>
+    <div class="container product-list">
+      <div class="row products"></div>
+  </div>
+
 
 
    <script src="./app.js/jquery.min.js"></script>
    <script src="./app.js/bootstrap.min.js"></script>
-   <script src="./app.js/index.js"></script>
+   <script src="./app.js/cub.js"></script>
 
 </body>
 </html>
