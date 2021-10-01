@@ -7,7 +7,7 @@ loadProductsChop();
 
 
 function getProductsChopDb() {
-    const url = "./dbMotosChop.json";
+    const url = "./json/dbMotosChop.json";
     
     return fetch (url)
      .then(response => {
@@ -41,7 +41,7 @@ async function loadProductsChop(){
                     <h5 class="card-title">${product.brand} - ${product.model}</h5>
                     <p class="card-text">${product.extraInfo}</p>
                     <p class="card-text">U$D ${product.price}</p>
-                    <button type="button" class=""btn btn-primary btn-cart">Comprar</button>
+                    <button type="button" class="btn btn-outline-primary text-white">Comprar</button>
                 </div>
             </div>
           </div>

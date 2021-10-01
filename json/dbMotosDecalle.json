@@ -1,0 +1,61 @@
+[
+    {
+      "id": 12,
+      "brand": "Gilera",
+      "model": "AC1",
+      "image": "./images/decalle1.png",
+      "extraInfo": "5 Vel., 4 tiempos, Amortiguador Hidráulico ",
+      "price": 1343.05
+    },
+
+    {
+      "id": 13,
+      "brand": "Gilera",
+      "model": "AC4",
+      "image": "./images/decalle2.png",
+      "extraInfo": "6 Vel., 250CC",
+      "price": 1223.05
+    },
+
+    {
+      "id": 14,
+      "brand": "Gilera",
+      "model": "VC 200",
+      "image": "./images/decalle3.png",
+      "extraInfo": "5 Vel., 200CC, Monoamortiguador",
+      "price": 26.05
+    },
+
+    {
+      "id": 15,
+      "brand": "Gilera",
+      "model": "GX1",
+      "image": "./images/decalle4.png",
+      "extraInfo": "5 Vel., 125CC, Monoshock, Disco",
+      "price": 2326.05
+    },
+
+    {
+      "id": 16,
+      "brand": "Jawa",
+      "model": "Café Racer 400",
+      "image": "./images/decalle5.png",
+      "extraInfo": "6 Vel., 400CC, Disco",
+      "price": 3326.05
+    },
+
+    {
+      "id": 17,
+      "brand": "Motomel",
+      "model": "CG 150 Serie II",
+      "image": "./images/decalle6.png",
+      "extraInfo": "5 Vel., 150CC, Disco",
+      "price": 3326.05
+    }
+
+
+
+  ]
+
+
+  

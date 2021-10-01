@@ -6,7 +6,7 @@ loadProductsCub();
 });
 
 function getProductsCubDb() {
-   const url = "./dbMotosCub.json";
+   const url = "./json/dbMotosDecalle.json";
    
    return fetch (url)
     .then(response => {
@@ -38,7 +38,7 @@ products.forEach(product => {
                 <h5 class="card-title">${product.brand} - ${product.model}</h5>
                  <p class="card-text">${product.extraInfo}</p>
                 <p class="card-text">U$D ${product.price}</p>
-                <button type="button" class=""btn btn-primary btn-cart">Comprar</button>
+                <button type="button" class="btn btn-outline-primary text-white">Comprar</button>
             </div>
         </div>
       </div>
