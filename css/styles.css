@@ -50,6 +50,11 @@ body {
   background-color: rgb(196, 196, 196);
 }
 
+#TituloCarrito{
+  margin-top: 10%;
+  color: #000000;
+} 
+
   .navbar .cart {
     background-color: transparent;
     border: 0;

@@ -2,11 +2,11 @@
 const CAR_PRODUCT = "cartProdcutsId";
 
 document.addEventListener("DOMContentLoaded",() => {
-loadProductsDecalle();
+    loadProductsDep();
 });
 
-function getProductsDecaDb() {
-   const url = "./json/dbMotosDecalle.json";
+function getProductsDepDb() {
+   const url = "./json/dbMotosDeportivas.json";
    
    return fetch (url)
     .then(response => {
@@ -20,8 +20,8 @@ function getProductsDecaDb() {
     });
 }
 
-async function loadProductsDecalle(){
-const products = await getProductsDecaDb();
+async function loadProductsDep(){
+const products = await getProductsDepDb();
 
 let html ="";
 products.forEach(product => {

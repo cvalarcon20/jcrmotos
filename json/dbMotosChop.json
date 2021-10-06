@@ -5,7 +5,7 @@
       "model": "250-9",
       "image": "../images/chop_250.png",
       "extraInfo": "5 Velocidades , Multidisco",
-      "price": 13.05
+      "price": 123.05
     },
 
     {
@@ -14,7 +14,7 @@
       "model": "Daytona 400",
       "image": "./images/chop_daytona.png",
       "extraInfo": "6 Velocidades, Inyección",
-      "price": 23.05
+      "price": 123.05
     },
 
     {
@@ -23,7 +23,7 @@
       "model": "Spyder 400",
       "image": "./images/chop_spider.png",
       "extraInfo": "6 Velocidades, Doble disco",
-      "price": 26.05
+      "price": 226.05
     },
 
     {
@@ -32,8 +32,18 @@
       "model": "YL 200",
       "image": "./images/chop_yl.png",
       "extraInfo": "5 Vel., Horquilla Invertida",
-      "price": 26.05
+      "price": 126.05
+    },
+    {
+      "id": 13,
+      "brand": "Zanella",
+      "model": "Patagonia Eagle 150",
+      "image": "./images/chop_zanella.png",
+      "extraInfo": "5 Vel., Horquilla Invertida",
+      "price": 326.05
     }
+
+
 
 
   ]

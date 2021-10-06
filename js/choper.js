@@ -48,8 +48,8 @@ async function loadProductsChop(){
           `;  
     });
     
-    document.getElementsByClassName("productschop")[0].innerHTML = html;
-    
+ //   document.getElementsByClassName("productschop")[0].innerHTML = html;
+    $(".productschop")[0].innerHTML = html; //jquery
     }
 
 

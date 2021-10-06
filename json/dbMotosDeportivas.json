@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "brand": "Gilera",
+      "model": "VC 250 Prova",
+      "image": "./images/deport1.png",
+      "extraInfo": "225CC - 6 Vel. Arranque Eléct.",
+      "price": 1200
+    },
+    {
+      "id": 2,
+      "brand": "Gilera",
+      "model": "VC200 R",
+      "image": "./images/deport2.png",
+      "extraInfo": "200CC - 5 Vel., Frenos disco",
+      "price": 2200
+    }
+  ]
+
+
+  

@@ -45,7 +45,8 @@ products.forEach(product => {
       `;  
 });
 
-document.getElementsByClassName("products")[0].innerHTML = html;
+//document.getElementsByClassName("products")[0].innerHTML = html;
+$(".products")[0].innerHTML = html; //jquery
 
 }
 
@@ -53,5 +54,6 @@ document.getElementsByClassName("products")[0].innerHTML = html;
 
 function openCloseCart() {
    const btnCart = document.getElementsByClassName("cart-products")[0];
+   
    console.log(btnCart);
 }
