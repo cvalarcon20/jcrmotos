@@ -20,6 +20,7 @@ function getProductsCubDb() {
     });
 }
 
+
 async function loadProductsCub(){
 const products = await getProductsCubDb();
 
@@ -38,7 +39,7 @@ products.forEach(product => {
                 <h5 class="card-title">${product.brand} - ${product.model}</h5>
                  <p class="card-text">${product.extraInfo}</p>
                 <p class="card-text">U$D ${product.price}</p>
-                <button type="button" class="btn btn-outline-primary text-white">Comprar</button>
+                <button type="button" class="btn btn-outline-primary text-white" onClick=(addProductCart(${product.id})) >Comprar</button>
             </div>
         </div>
       </div>
@@ -51,9 +52,48 @@ $(".products")[0].innerHTML = html; //jquery
 }
 
 
-
 function openCloseCart() {
-   const btnCart = document.getElementsByClassName("cart-products")[0];
    
-   console.log(btnCart);
+   const containerCart = document.getElementsByClassName("cart-products")[0];
+
+   containerCart.classList.forEach(item => {
+        if(item ==="hidden"){
+            containerCart.classList.remove("hidden");
+            containerCart.classList.add("active");
+        }
+        if(item ==="active"){
+            containerCart.classList.remove("active");
+            containerCart.classList.add("hidden");
+        }
+   });
 }
+
+
+function addProductCart(idProduct){
+    let arrayProductsId = [];
+
+    let localStorageItems = localStorage.getItem(CAR_PRODUCT);
+    
+    if(localStorageItems === null){
+        arrayProductsId.push(idProduct);
+        localStorage.setItem(CAR_PRODUCT,arrayProductsId);
+    }else{
+        let productsId = localStorage.getItem(CAR_PRODUCT);
+        if(productsId.length > 0 ){
+            productsId += "," + idProduct;
+        }else {
+        productsId = productId;
+        }
+        localStorage.setItem(CAR_PRODUCT,productsId);
+    }    
+}
+
+$("body").prepend('<h5>Motos - CUB</h5>');
+$("h5").fadeOut("slow",function(){
+$("h5").fadeIn(1000);
+});
+
+
+$("h5").css("background-color","grey");
+$("h5").css("text-align","center");
+$("h5").css("padding-top","5.3em");
