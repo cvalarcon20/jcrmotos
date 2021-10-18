@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eComerce</title>
 
-
+<!-- FONT AWESOME -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<!-- FONT  Montserrat-->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/bootstrap.min.css">
 <link rel="stylesheet" href="./css/styles.css">
 
@@ -14,28 +17,28 @@
 <body>
 
    <!--Navegation -->
-   <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+   <nav class="navbar navbar-expand-xl navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand ml-4" href="#">JCR Motos</a>
+      <a class="navbar-brand ml-4" href="index.html"><img  class="logo"  src="./images/logo_header1.png" alt="LogoJCR"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse show" id="navbarWithDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Motos
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Cub</a></li>
-              <li><a class="dropdown-item" href="#">Custom/Chopper</a></li>
-              <li><a class="dropdown-item" href="#">Deportivas</a></li>
-              <li><a class="dropdown-item" href="#">De Calle / Naked </a></li>
-              <li><a class="dropdown-item" href="#">Enduro</a></li>
-              <li><a class="dropdown-item" href="#">Scooters</a></li>
+              <li><a class="dropdown-item" href="./cub.html">Cub</a></li>
+              <li><a class="dropdown-item" href="./choper.html">Custom/Choper</a></li>
+              <li><a class="dropdown-item" href="./deportivas.html">Deportivas</a></li>
+              <li><a class="dropdown-item" href="./decalle.html">De Calle / Naked </a></li>
+              <li><a class="dropdown-item" href="./enduro.html">Enduro</a></li>
+              <li><a class="dropdown-item" href="./scooter.html">Scooters</a></li>
               <li><a class="dropdown-item" href="#">Touring</a></li>
             </ul>
             <li class="nav-item dropdown">
@@ -51,79 +54,90 @@
             <button class="btn btn-secondary cart" type="button" onClick="openCloseCart()">
                 <img src="./images/cart.png" alt="carrito">
             </button>
-            <div class="cart-products hidden"></div>
+            <div class="cart-products hidden">
+              El Carrito esta vacío...
+            </div>
         </div>
       </div>
     </div>
   </nav>
 
 
-
-
-   <!-- <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-        <div class="container-fluid">
-            <img src="./images/jcrmotos.jpg" alt="eComerce JRCMotos" class="logo">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse show" id="navbarDark">
-            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Cub</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Custom/Choper</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Custom/Choper</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Custom/Choper</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Search</button>
-            </form>
-        </div>
-        </div>
-   </nav> -->
-
-
-   <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-     <div class="container">
-        <img src="./images/jcrmotos.jpg" alt="eComerce JRCMotos" class="logo">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active container">
-                        <a class="nav-link" href="./">
-                            <span class="sr-only">Home</span>
-                        </a>
-                </li>
-            </ul>
-                <div class="cart-container">
-                    <button class="btn btn-secondary cart" type="button" onClick="openCloseCart()">
-                        <img src="./images/cart.png" alt="carrito">
-                    </button>
-                    <div class="cart-products hidden"></div>
-                </div>
-        </div>
-     </div>        
-    </nav> -->
-
    <!-- Product List    -->
     <!-- Aca se van a renderizar nuestros prductos -->
-   <div class="container product-list">
-       <div class="row products"></div>
-   </div>
+    
+    <div class="container product-list">
+      <div class="row products"></div>
+  </div>
 
 
-   <script src="./app.js/jquery.min.js"></script>
-   <script src="./app.js/bootstrap.min.js"></script>
-   <script src="./app.js/index.js"></script>
+
+
+<!--/////////////  FOOTER CONTACTO //////////////-->
+
+
+<footer class="page-footer bg-dark"> 
+  <div class="bg-light">
+    <div class="container-footer">
+      <div class="row py-4 d-flex align-items-center">
+        
+        <div class="col-md-12 text-center">
+          <a href="#"><i class="fab fa-facebook-square text-white m-3 fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram text-white m-3 fa-2x"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in text-white m-3 fa-2x"></i></a>
+        </div>
+      </div>  
+    </div>
+  </div>
+  
+
+  <div class="container-footer text-center text-md-left mt-5">
+      <div class="row">
+        <div class="col-md-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold" >JCR Motos</h6>
+          <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" id="hr1">
+              <p>Somos la única <b>Concesionaria Oficial RVM</b> en Córdoba Capital y service técnico oficial<b><br> 20 años de experiencia en ventas.</b>
+        </div>
+
+        <div class="col-md-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold" >carrito JCR Motos</h6>
+          <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" id="hr2">
+                      
+          <ul class="list-unstyled">
+            <li class="my-2"><a class="text-decoration-none text-danger" href="cub.html">Cub</a></li>
+            <li class="my-2"><a class="text-decoration-none text-danger" href="choper.html">Custom / Chopper</a></li>
+            <li class="my-2"><a class="text-decoration-none text-danger" href="#">Deportivas</a></li>
+            <li class="my-2"><a class="text-decoration-none text-danger" href="#">De Calle / Naked</a></li>
+            <li class="my-2"><a class="text-decoration-none text-danger" href="#">Enduro</a></li>
+            <li class="my-2"><a class="text-decoration-none text-danger" href="#">Scooters</a></li>
+            <li class="my-2"><a class="text-decoration-none text-danger" href="#">Touring</a></li>
+          </ul>
+        </div>
+
+        
+        <div class="col-md-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold" >Contacto</h6>
+          <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" id="hr3">
+                    
+        <ul class="list-unstyled">
+          <li><i class="fas fa-map-marker-alt"></i>   
+            Arturo Capdevilla 1651, Bº Villa Azaláis, Córdoba Capital
+          </li>
+          <li><i class="fas fa-phone-square fa-1x"></i>  :    
+            (0351) 479-1907 / 48</li>
+          <li><i class="fas fa-phone-square fa-1x"></i>  :    (351) 881 0701</li>
+        </ul>
+
+      </div>
+    </div>
+</footer> 
+
+
+
+
+   <script src="./js/jquery.min.js"></script>
+   <script src="./js/bootstrap.min.js"></script>
+   <script src="./js/enduro.js"></script>
 
 </body>
 </html>

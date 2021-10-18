@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "brand": "Gilera",
+      "model": "EG II Electrica",
+      "image": "./images/scooter_EGII.png",
+      "extraInfo": "Arranque Eléct., Monoshock ",
+      "price": 3200
+    },
+    {
+      "id": 2,
+      "brand": "Motomel",
+      "model": "Strato Alpino 150",
+      "image": "./images/scooter_alpino.png",
+      "extraInfo": "150CC - 5 Vel., 4 tiempos",
+      "price": 2500
+    },
+    {
+      "id": 3,
+      "brand": "Gilera",
+      "model": "Piccola 150",
+      "image": "./images/scooter_Picola.png",
+      "extraInfo": "150CC - 5 Vel., Doble Amortiguador",
+      "price": 2300
+    },
+    {
+      "id": 4,
+      "brand": "Gilera",
+      "model": "Strato Alpino 150",
+      "image": "./images/scooter_Alpina.png",
+      "extraInfo": "150CC - Monocilíndrico, 4 Tiempos",
+      "price": 2200
+    }
+    
+  ]
+
+
+  

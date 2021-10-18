@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "brand": "RVM",
+      "model": "CZ 250 L",
+      "image": "./images/enduro_cz.png",
+      "extraInfo": "225CC - 6 Vel. Encendido Eléct.",
+      "price": 2200
+    },
+    {
+      "id": 2,
+      "brand": "RVM",
+      "model": "CZ 250 R",
+      "image": "./images/enduro_czR.png",
+      "extraInfo": "6Vel., Multidisco",
+      "price": 2200
+    },
+    {
+      "id": 3,
+      "brand": "RVM",
+      "model": "CZ 250 R",
+      "image": "./images/enduro_czR.png",
+      "extraInfo": "6Vel., Multidisco",
+      "price": 2500
+    },
+    {
+      "id": 4,
+      "brand": "RVM",
+      "model": "CZ 250 Turismo",
+      "image": "./images/enduro_czTur.png",
+      "extraInfo": "5Vel., Multidisco",
+      "price": 1700
+    },
+    {
+      "id": 5,
+      "brand": "Motomel",
+      "model": "Skua 150 Silver",
+      "image": "./images/enduro_skuaSilver.png",
+      "extraInfo": "150CC, 5Vel., 4Tiempos",
+      "price": 1900
+    },
+    {
+      "id": 6,
+      "brand": "Motomel",
+      "model": "Skua 150 New",
+      "image": "./images/enduro_skuaNew.png",
+      "extraInfo": "5Vel., Multidisco",
+      "price": 2000
+    },
+    {
+      "id": 7,
+      "brand": "Motomel",
+      "model": "Skua Adventure 250",
+      "image": "./images/enduro_skuaAdv.png",
+      "extraInfo": "223CC, 6Vel., Monoamortiguador",
+      "price": 2500
+    }
+
+
+
+
+  ]
+
+
+  
