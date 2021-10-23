@@ -1,6 +1,6 @@
 [
     {
-      "id": 1,
+      "id": 31,
       "brand": "Gilera",
       "model": "VC 250 Prova",
       "image": "./images/deport1.png",
@@ -8,7 +8,7 @@
       "price": 1200
     },
     {
-      "id": 2,
+      "id": 32,
       "brand": "Gilera",
       "model": "VC200 R",
       "image": "./images/deport2.png",

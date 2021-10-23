@@ -2,12 +2,12 @@
 const CART_PRODUCT = "cartProductsId";
 
 document.addEventListener("DOMContentLoaded",() => {
-loadProductsCub();
+loadProductsCuad();
 loadProductCart();
 });
 
-function getProductsCubDb() {
-   const url = "./json/dbMotosCub.json";
+function getProductsCuadDb() {
+   const url = "./json/dbMotosCuad.json";
    
    return fetch (url)
     .then(response => {
@@ -22,8 +22,8 @@ function getProductsCubDb() {
 }
 
 
-async function loadProductsCub(){
-const products = await getProductsCubDb();
+async function loadProductsCuad(){
+const products = await getProductsCuadDb();
 
 let html ="";
 products.forEach(product => {
@@ -91,7 +91,7 @@ function addProductCart(idProduct){
     loadProductCart();
 }
 
-$("body").prepend('<h5>Motos - CUB</h5>');
+$("body").prepend('<h5>Motos - Cuatriciclos Deportivas</h5>');
 $("h5").fadeOut("slow",function(){
 $("h5").fadeIn(1000);
 });
@@ -102,7 +102,7 @@ $("h5").css("text-align","center");
 $("h5").css("padding-top","5.3em");
 
 async  function loadProductCart(){
-    const products = await getProductsCubDb();
+    const products = await getProductsCuadDb();
 
 // paso de LocalStorage a un array
     const localStorageItems = localStorage.getItem(CART_PRODUCT);

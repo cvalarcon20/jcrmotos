@@ -1,6 +1,6 @@
 [
     {
-      "id": 12,
+      "id": 41,
       "brand": "Gilera",
       "model": "AC1",
       "image": "./images/decalle1.png",
@@ -9,7 +9,7 @@
     },
 
     {
-      "id": 13,
+      "id": 42,
       "brand": "Gilera",
       "model": "AC4",
       "image": "./images/decalle2.png",
@@ -18,7 +18,7 @@
     },
 
     {
-      "id": 14,
+      "id": 43,
       "brand": "Gilera",
       "model": "VC 200",
       "image": "./images/decalle3.png",
@@ -27,7 +27,7 @@
     },
 
     {
-      "id": 15,
+      "id": 44,
       "brand": "Gilera",
       "model": "GX1",
       "image": "./images/decalle4.png",
@@ -36,7 +36,7 @@
     },
 
     {
-      "id": 16,
+      "id": 45,
       "brand": "Jawa",
       "model": "Café Racer 400",
       "image": "./images/decalle5.png",
@@ -45,7 +45,7 @@
     },
 
     {
-      "id": 17,
+      "id": 46,
       "brand": "Motomel",
       "model": "CG 150 Serie II",
       "image": "./images/decalle6.png",

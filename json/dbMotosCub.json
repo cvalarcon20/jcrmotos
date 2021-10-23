@@ -1,14 +1,17 @@
 [
     {
-      "id": 1,
+      "id": 11,
       "brand": "Motomel",
       "model": "Blitz 110",
       "image": "./images/blitz1.png",
       "extraInfo": "110CC - Con Alarma",
       "price": 1200
+
+      
+
     },
     {
-      "id": 2,
+      "id": 12,
       "brand": "Motomel",
       "model": "Blitz 110",
       "image": "./images/blitz2.png",
@@ -16,7 +19,8 @@
       "price": 1000
     },
     {
-      "id": 3,
+      "id": 13,
+      "dataId": "C3",
       "brand": "Motomel",
       "model": "Blitz 110",
       "image": "./images/blitz3.png",
@@ -24,7 +28,8 @@
       "price": 1.55
     },
     {
-      "id": 4,
+      "id": 14,
+      "dataId": "C4",
       "brand": "Motomel",
       "model": "Blitz One",
       "image": "./images/blitz1.png",
@@ -32,7 +37,8 @@
       "price": 1.99
     },
     {
-      "id": 5,
+      "id": 15,
+      "dataId": "C5",
       "brand": "Motomel",
       "model": "CG 150 S2",
       "image": "./images/cg1.png",
@@ -40,7 +46,8 @@
       "price": 1.65
     },
     {
-      "id": 6,
+      "id": 16,
+      "dataId": "C6",
       "brand": "Motomel",
       "model": "CG 150 S2",
       "image": "./images/cg2.png",
@@ -48,7 +55,8 @@
       "price": 1.7
     },
     {
-      "id": 7,
+      "id": 17,
+      "dataId": "C7",
       "brand": "Motomel",
       "model": "CG 150 S3",
       "image": "./images/cg3.png",
@@ -56,7 +64,8 @@
       "price": 2.55
     },
     {
-      "id": 8,
+      "id": 18,
+      "dataId": "C8",
       "brand": "Motomel",
       "model": "Max 110",
       "image": "./images/max110.png",

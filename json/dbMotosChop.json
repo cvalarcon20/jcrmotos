@@ -1,6 +1,6 @@
 [
     {
-      "id": 9,
+      "id": 21,
       "brand": "RVM",
       "model": "250-9",
       "image": "./images/chop_250.png",
@@ -9,7 +9,7 @@
     },
 
     {
-      "id": 10,
+      "id": 22,
       "brand": "Jawa",
       "model": "Daytona 400",
       "image": "./images/chop_daytona.png",
@@ -18,7 +18,7 @@
     },
 
     {
-      "id": 11,
+      "id": 23,
       "brand": "Jawa",
       "model": "Spyder 400",
       "image": "./images/chop_spider.png",
@@ -27,7 +27,7 @@
     },
 
     {
-      "id": 12,
+      "id": 24,
       "brand": "Gilera",
       "model": "YL 200",
       "image": "./images/chop_yl.png",
@@ -35,7 +35,7 @@
       "price": 126.05
     },
     {
-      "id": 13,
+      "id": 25,
       "brand": "Zanella",
       "model": "Patagonia Eagle 150",
       "image": "./images/chop_zanella.png",

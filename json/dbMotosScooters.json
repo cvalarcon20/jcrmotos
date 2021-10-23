@@ -1,6 +1,6 @@
 [
     {
-      "id": 1,
+      "id": 61,
       "brand": "Gilera",
       "model": "EG II Electrica",
       "image": "./images/scooter_EGII.png",
@@ -8,7 +8,7 @@
       "price": 3200
     },
     {
-      "id": 2,
+      "id": 62,
       "brand": "Motomel",
       "model": "Strato Alpino 150",
       "image": "./images/scooter_alpino.png",
@@ -16,7 +16,7 @@
       "price": 2500
     },
     {
-      "id": 3,
+      "id": 63,
       "brand": "Gilera",
       "model": "Piccola 150",
       "image": "./images/scooter_Picola.png",
@@ -24,7 +24,7 @@
       "price": 2300
     },
     {
-      "id": 4,
+      "id": 64,
       "brand": "Gilera",
       "model": "Strato Alpino 150",
       "image": "./images/scooter_Alpina.png",

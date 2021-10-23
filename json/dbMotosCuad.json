@@ -1,0 +1,24 @@
+[
+    {
+      "id": 81,
+      "brand": "Gilera",
+      "model": "FX-R Caniball",
+      "image": "./images/cuadri_can.png",
+      "extraInfo": "300CC - 5Vel. y reversa",
+      "price": 6200
+    },
+
+    {
+      "id": 82,
+      "brand": "Motomel",
+      "model": "Pitbull 200",
+      "image": "./images/cuadri_pitb.png",
+      "extraInfo": "200CC - 4Vel. y reversa",
+      "price": 7500
+    }
+    
+
+  ]
+
+
+  

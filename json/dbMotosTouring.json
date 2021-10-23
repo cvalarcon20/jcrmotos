@@ -1,0 +1,33 @@
+[
+    {
+      "id": 71,
+      "brand": "RVM",
+      "model": "Motrac 500",
+      "image": "./images/touring_montrac.png",
+      "extraInfo": "500CC - 6 Vel. Encendido Eléct.",
+      "price": 6500
+    },
+    {
+      "id": 72,
+      "brand": "RVM",
+      "model": "Tekken 500",
+      "image": "./images/touring_tekken.png",
+      "extraInfo": "6Vel., Multidisco",
+      "price": 4500
+    },
+    {
+      "id": 73,
+      "brand": "RVM",
+      "model": "Tekken Premiun",
+      "image": "./images/touring_tekken_prem.png",
+      "extraInfo": "6Vel., Multidisco",
+      "price": 6500
+    }
+
+
+
+
+  ]
+
+
+  
